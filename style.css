@@ -1,3 +1,10 @@
+
+
+
+.outer{
+   
+    background: url(https://images.pexels.com/photos/1415734/pexels-photo-1415734.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
 .row{
     width: 100%;
     height:100%;
@@ -9,11 +16,13 @@
 .col{
     width: 270px;
     height: 380px;
-    background-color: rgba(195, 201, 157, 0.87);
+    /* background-color: rgba(195, 201, 157, 0.87); */
+    background-color: rgb(234, 237, 239);
     margin: 50px;
     border-radius: 18px;
     border: 2px rgba(214, 235, 172, 0.589) ridge;
     box-shadow: 5px 6px 7px rgba(80, 79, 79, 0.847);
+    transition: 0.5s;
 }
 body{
     background-image: url(/image/pngtree-vegetables-green-food-poster-banner-image_9907.jpg);
@@ -25,9 +34,11 @@ border-radius: 12px;
 margin-top: 17px;
 margin-left: 20px;
 
+
 }
 .col:hover{
-    background-color: rgba(186, 184, 184, 0.61);
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 h3{
     margin-left: 76px;
